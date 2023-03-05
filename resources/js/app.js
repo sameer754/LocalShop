@@ -1,3 +1,3 @@
 require('./bootstrap');
 
-require('./src/HelloReact')
+require('./src/index')

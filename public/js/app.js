@@ -2061,7 +2061,7 @@ module.exports = {
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-__webpack_require__(/*! ./src/HelloReact */ "./resources/js/src/HelloReact.js");
+__webpack_require__(/*! ./src/index */ "./resources/js/src/index.js");
 
 /***/ }),
 
@@ -2119,17 +2119,17 @@ __webpack_require__.r(__webpack_exports__);
 
 function App() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-    children: "Hello, webpack mix things working fine with react+laravel!!"
+    children: "Hello, webpack mix things working fine with react+laravel so we can continue with it!!"
   });
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
 /***/ }),
 
-/***/ "./resources/js/src/HelloReact.js":
-/*!****************************************!*\
-  !*** ./resources/js/src/HelloReact.js ***!
-  \****************************************/
+/***/ "./resources/js/src/index.js":
+/*!***********************************!*\
+  !*** ./resources/js/src/index.js ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
