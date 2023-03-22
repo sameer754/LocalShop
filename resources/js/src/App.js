@@ -1,8 +1,11 @@
 import React from 'react';
+import WrapperComponent from "./components/WrapperComponent";
 
 function App() {
     return (
-        <div>Hello, webpack mix things working fine with react+laravel so we can continue with it!!</div>
+        <>
+            <WrapperComponent />
+        </>
     )
 }
 
