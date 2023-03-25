@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Routes, useNavigate, Route, useLocation, Navigate } from "react-router-dom";
 import RoutesList from "../config/Routes";
 import Login from "./authentication/Login";
-import Logout from "./authentication/Logout";
+import Home from "./dashboard/Home";
 
 const Landingpage = ({ setPageError }) => {
     const navigater = useNavigate();
@@ -17,8 +17,7 @@ const Landingpage = ({ setPageError }) => {
     return (
         <Routes>
             <Route exact={true} path="/login" element={<Login />} />
-            <Route exact={true} path="/logout" element={<Logout />} />
-            <Route exact={true} path="/" element={<Logout />} />
+            <Route exact={true} path="/dashboard" element={<Home />} />
         </Routes>
     );
 };
